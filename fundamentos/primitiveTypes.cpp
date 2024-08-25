@@ -21,5 +21,9 @@ int main(int argc, char const *argv[])
     long int quant = 56895364256;
     cout << quant << endl;
 
+    cout << "Float tem " << sizeof(float) << " bytes" << endl;
+    cout << "Double tem " << sizeof(double) << " bytes" << endl;
+    cout << "Int tem " << sizeof(int) << " bytes" << endl;
+
     return 0;
 }
